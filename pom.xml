@@ -96,8 +96,8 @@
     </dependency>
     -->
     <!-- log end -->
-    
-    <!-- 格式化对象，方便输出日志 -->
+	
+	<!-- 格式化对象，方便输出日志 -->
     <!-- fastjson start -->
     <dependency>
      <groupId>com.alibaba</groupId>
@@ -183,8 +183,8 @@
       <optional>true</optional>
     </dependency>
     <!-- mybatis end -->
-    
-    <!-- servlet-api start -->
+	
+	<!-- servlet-api start -->
     <dependency>
       <groupId>javax.servlet</groupId>
       <artifactId>servlet-api</artifactId>
@@ -202,8 +202,8 @@
       <optional>true</optional>
     </dependency>
     <!-- javaee-api end -->
-
-    <!-- jetty-jsp start -->
+	
+	<!-- jetty-jsp start -->
     <dependency>
       <groupId>org.eclipse.jetty</groupId>
       <artifactId>jetty-jsp</artifactId>
@@ -234,8 +234,8 @@
       <optional>true</optional>
     </dependency>
     <!-- Jfianl end -->
-    
-    <!-- c3p0 start -->
+	
+	<!-- c3p0 start -->
     <dependency>
       <groupId>c3p0</groupId>
       <artifactId>c3p0</artifactId>
@@ -279,8 +279,8 @@
       <classifier>jdk15</classifier>
     </dependency>
     <!-- json-lib end-->
-    
-    <!-- jaxen start-->
+	
+	<!-- jaxen start-->
     <dependency>
       <groupId>jaxen</groupId>
       <artifactId>jaxen</artifactId>
@@ -318,8 +318,8 @@
       <scope>provided</scope>
     </dependency>
     <!-- gson end -->
-    
-    <!-- 上传组件 -->
+	
+	<!-- 上传组件 -->
     <!-- commons-fileupload start -->
     <dependency>
       <groupId>commons-fileupload</groupId>
@@ -365,17 +365,19 @@
       <version>${xstream.version}</version>
     </dependency>
     <!-- xstream end -->
-    
-    <!-- jedis start -->
+	
+	<!-- jedis start -->
+	<!-- 引入报错
     <dependency>
       <groupId>redis.clients</groupId>
       <artifactId>jedis</artifactId>
       <version>${jedis.version}</version>
       <scope>provided</scope>
     </dependency>
+	-->
     <!-- jedis end -->
-
-    <!-- fst start -->
+	
+	<!-- fst start -->
     <dependency>
       <groupId>de.ruedigermoeller</groupId>
       <artifactId>fst</artifactId>
@@ -383,8 +385,8 @@
       <scope>provided</scope>
     </dependency>
     <!-- fst end -->
-
-    <!-- okhttp start -->
+	
+	<!-- okhttp start -->
     <dependency>
       <groupId>com.squareup.okhttp</groupId>
       <artifactId>okhttp</artifactId>
@@ -399,14 +401,6 @@
       <version>${okhttp3.version}</version>
     </dependency>
     <!-- okhttp3 end -->
-    
-    <!--
-    <dependency>
-      <groupId>javassist</groupId>
-      <artifactId>javassist</artifactId>
-      <version>${javassist.version}</version>
-    </dependency>
-    -->
   </dependencies>
   
   <build>
