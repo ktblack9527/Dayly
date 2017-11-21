@@ -367,14 +367,12 @@
     <!-- xstream end -->
 	
 	<!-- jedis start -->
-	<!-- 引入报错
     <dependency>
       <groupId>redis.clients</groupId>
       <artifactId>jedis</artifactId>
       <version>${jedis.version}</version>
       <scope>provided</scope>
     </dependency>
-	-->
     <!-- jedis end -->
 	
 	<!-- fst start -->
